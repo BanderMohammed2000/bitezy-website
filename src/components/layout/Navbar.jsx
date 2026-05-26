@@ -13,7 +13,7 @@ function Navbar() {
         </div>
         <p className="font-semibold text-xl capitalize text-primary">bitezy</p>
       </div>
-      <ul className="flex space-x-5">
+      <ul className="hidden lg:flex space-x-5">
         <li>
           <a className={navStyle} href="">
             menu
