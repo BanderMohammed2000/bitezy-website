@@ -6,3 +6,14 @@
 body {
   background-color: #fbeee0;
 }
+
+.our-categories::after {
+  content: "";
+  background-color: #ca3c1f;
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  height: 2px;
+  width: 100px;
+  border-radius: 6px;
+}

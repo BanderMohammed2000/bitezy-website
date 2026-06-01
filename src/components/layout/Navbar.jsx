@@ -2,11 +2,13 @@ import logo from "../../assets/logo.svg";
 import cart from "../../assets/icons/cart.svg";
 import search from "../../assets/icons/search-line.svg";
 import sign from "../../assets/icons/signin.svg";
+import menu from "../../assets/icons/menu-alt.svg";
 import Button from "../ui/Button";
 function Navbar() {
   const navStyle = "capitalize font-medium text-blackSoft";
   return (
     <nav className="flex justify-between items-center">
+      <img src={menu} alt="Menu Bar Icon" className="lg:hidden w-7 h-7" />
       <div className="flex space-x-2 items-center">
         <div className="bg-primary rounded-[50%] p-2">
           <img src={logo} alt="logo" className="w-5 h-5" />
@@ -48,7 +50,7 @@ function Navbar() {
       <div className="flex space-x-4 items-center">
         <img src={search} alt="Search Icon" className="w-5 h-5" />
         <img src={cart} alt="Cart Icon" className="w-5 h-5" />
-        <Button className="flex items-center space-x-2 text-blackSoft font-semibold bg-white">
+        <Button className="hidden lg:flex items-center space-x-2 text-blackSoft font-semibold bg-white">
           <img className="w-6 h-6" src={sign} alt="Sign-in Icon" />
           <span>Sign in</span>
         </Button>
