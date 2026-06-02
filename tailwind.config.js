@@ -24,11 +24,12 @@ export default {
         yellowAccent: "#D89E00",
         greenAccent: "#81BF54",
         purpleAccent: "#8989E1",
-        goldenOrange: "#FC8D0D",
+        orangeAccent: "#F04B2B",
 
         // Text
         blackSoft: "#111111",
         graySoft: "#6B6B6B",
+        goldenOrange: "#FC8D0D",
 
         // Food tones
         brownAccent: "#543128",

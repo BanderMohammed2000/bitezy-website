@@ -68,7 +68,7 @@ function Categories() {
         {/* كلام */}
         <div className="w-full md:w-[45%] md:order-1">
           <div className="flex flex-col space-y-8">
-            <h2 className="text-2xl font-medium capitalize relative our-categories">
+            <h2 className="text-2xl text-blackSoft font-medium capitalize relative our-categories">
               our categories
             </h2>
             {categoryData.map((data) => (
