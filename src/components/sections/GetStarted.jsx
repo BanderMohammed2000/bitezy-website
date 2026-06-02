@@ -10,7 +10,7 @@ function GetStarted() {
             <span className="text-xs font-medium text-orangeAccent uppercase">
               healthy food
             </span>
-            <h2 className="text-2xl font-medium text-blackSoft capitalize relative get-started">
+            <h2 className="text-2xl font-medium text-blackSoft capitalize relative horizontal-line">
               start eating better today!
             </h2>
           </div>
