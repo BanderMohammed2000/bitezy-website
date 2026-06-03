@@ -4,6 +4,8 @@ import GetStarted from "../components/sections/GetStarted";
 import Menu from "../components/sections/Menu";
 import OurTeam from "../components/sections/OurTeam";
 import TopFoods from "../components/sections/TopFoods";
+import Footer from "../components/layout/Footer";
+
 function Home() {
   return (
     <>
@@ -13,6 +15,7 @@ function Home() {
       <GetStarted />
       <TopFoods />
       <OurTeam />
+      <Footer />
     </>
   );
 }

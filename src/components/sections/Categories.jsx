@@ -2,6 +2,7 @@ import categoryData from "../../data/CategoryData";
 import healthyBowl from "../../assets/images/healthy-bowl-yellow.png";
 import healthyBreakfast from "../../assets/images/healthy-breakfast.png";
 import grilledSalad from "../../assets/images/grilled-salad.png";
+import kiwi from "../../assets/images/kiwi.png";
 import CategoryCard from "../ui/CategoryCard";
 
 // function Categories() {
@@ -67,10 +68,15 @@ function Categories() {
         </div>
         {/* كلام */}
         <div className="w-full md:w-[45%] md:order-1">
-          <div className="flex flex-col space-y-8">
+          <div className="flex flex-col space-y-8 relative">
             <h2 className="text-2xl text-blackSoft font-medium capitalize relative horizontal-line">
               our categories
             </h2>
+            <img
+              src={kiwi}
+              alt="kiwi"
+              className="block md:hidden opacity-90 w-[70px] h-[70px] sm:w-32 sm:h-32 absolute right-0 top-1/2 -translate-y-1/2"
+            />
             {categoryData.map((data) => (
               <CategoryCard key={data.id} {...data} />
             ))}

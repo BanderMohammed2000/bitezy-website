@@ -1,10 +1,18 @@
 import man from "../../assets/images/man-eats-salad-bowl.png";
 import broccoli from "../../assets/images/broccoli.png";
 import apple from "../../assets/images/apple.png";
+import fallenBowl from "../../assets/images/fallen-bowl.png";
 function GetStarted() {
   return (
     <section className="container mx-auto px-6 pb-6 sm:pt-6 md:pt-14">
-      <div className="flex flex-col md:items-center gap-y-12 md:gap-x-4 lg:gap-x-36 xl:gap-x-72 md:flex-row">
+      {/* className="flex flex-col md:items-center gap-y-12 md:gap-x-4 lg:gap-x-36
+      xl:gap-x-72 md:flex-row" */}
+      <div className="flex flex-col md:items-center justify-between gap-y-12 md:flex-row relative">
+        <img
+          src={fallenBowl}
+          alt="Fallen Bowl"
+          className="hidden xl:block w-[550px] h-[550px] opacity-90 absolute right-[20%] top-[60%] -translate-y-1/2 -rotate-12"
+        />
         <div className="flex flex-col space-y-8">
           <div className="space-y-1">
             <span className="text-xs font-medium text-orangeAccent uppercase">
