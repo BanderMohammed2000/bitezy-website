@@ -14,8 +14,9 @@ function Hero() {
           <span className="text-goldenOrange leading-snug"> Important </span>
           <span className="leading-snug">Part of Lifestyle</span>
         </h1>
-        <p className="text-graySoft text-sm w-3/5 lg:w-2/5">
-          We prepare delicious food for you we are always
+        <p className="text-graySoft text-sm leading-relaxed w-3/5 xl:w-2/5">
+          {/* We prepare delicious food for you we are always */}
+          Fresh and healthy meals prepared to support your active lifestyle
         </p>
         <div className="flex items-center pt-6 space-x-8">
           <Button className="bg-primary text-white capitalize font-semibold">
@@ -41,7 +42,7 @@ function Hero() {
           <div className="hidden sm:block w-7 h-36 absolute right-11 top-5 rounded-[999px] rotate-[130deg] bg-[linear-gradient(to_bottom,#074a05_0%,#003a00_100%)] shadow-xl"></div>
           <div className="hidden sm:block w-7 h-36 absolute -left-11 top-1/2 -translate-y-1/2 rounded-[999px] rotate-[130deg] bg-[linear-gradient(to_bottom,#074a05_0%,#003a00_100%)] shadow-xl"></div>
           {/* circle */}
-          <div className="hidden sm:block w-20 h-20 bg-goldenOrange rounded-[50%] absolute -left-16 -bottom-8 lg:-bottom-5 shadow-xl"></div>
+          <div className="hidden sm:block w-20 h-20 bg-goldenOrange rounded-[50%] absolute -left-16 -bottom-8 md:-bottom-3 lg:-bottom-5 shadow-xl"></div>
           <div className="w-20 h-20 bg-goldenOrange rounded-[50%] absolute bottom-2 sm:right-7 sm:bottom-14 shadow-xl"></div>
           {/* card */}
           <div className="hidden sm:flex flex-col w-72 lg:w-96 p-6 space-y-5 bg-white/15 rounded-2xl absolute top-1/2 -translate-y-4 sm:right-3/4 md:right-1/2 backdrop-blur-md shadow-xl">

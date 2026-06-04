@@ -45,7 +45,7 @@ import CategoryCard from "../ui/CategoryCard";
 // }
 function Categories() {
   return (
-    <section className="container mx-auto sm:pt-10 pb-6 px-6 relative -top-6 sm:top-0">
+    <section className="container mx-auto sm:pt-10 pb-6 px-6 relative -top-6 sm:-top-5 md:top-0">
       <div className="flex flex-col md:flex-row items-center md:gap-10 lg:gap-16">
         <div className="flex gap-2 w-full md:w-[55%] h-80 order-1 mt-10 md:mt-0">
           <img

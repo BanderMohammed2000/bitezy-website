@@ -16,7 +16,7 @@ const menuData = [
     name: "Green Bowl",
     price: 5,
     image: greenBowl,
-    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
+    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const menuData = [
     name: "Veggie Mix",
     price: 4,
     image: veggieMix,
-    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
+    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const menuData = [
     name: "Nature Bowl",
     price: 5,
     image: natureBowl,
-    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
+    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const menuData = [
     name: "Fresh Garden",
     price: 4,
     image: freshGarden,
-    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
+    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const menuData = [
     name: "Rainbow Bowl",
     price: 5,
     image: rainbowBowl,
-    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
+    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
   },
   {
     id: 10,
@@ -86,7 +86,7 @@ const menuData = [
     name: "Healthy Crunch",
     price: 4,
     image: healthyCrunch,
-    color: "bg-gradient-to-br from-[#5ee443] to-[#3cc322]",
+    color: "bg-gradient-to-br from-[#ff7b7b] to-[#ff5c5c]",
   },
   {
     id: 12,

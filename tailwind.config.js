@@ -11,7 +11,8 @@ export default {
         // Neutral
         whiteSoft: "#FCF8F3",
         bgMain: "#FBEEE0",
-        bgSoft: "#EDDDCD",
+        // bgSoft: "#EDDDCD",
+        bgCream: "#FEF7EF",
         bgOutside: "#E1C4B2",
 
         // Brand

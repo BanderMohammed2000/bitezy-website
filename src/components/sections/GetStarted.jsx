@@ -23,11 +23,11 @@ function GetStarted() {
             </h2>
           </div>
           <div className="space-y-5 max-w-md md:max-w-sm lg:max-w-md">
-            <p className="font-medium text-blackSoft leading-snug">
+            <p className="font-medium text-blackSoft leading-relaxed">
               Fresh, nutritious meals carefully prepared to support your healthy
               lifestyle
             </p>
-            <p className="text-sm text-graySoft leading-snug">
+            <p className="text-sm text-graySoft leading-relaxed">
               Discover a variety of wholesome dishes made from fresh
               ingredients, balanced nutrition, and delicious flavors to keep you
               energized throughout your day
