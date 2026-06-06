@@ -23,7 +23,7 @@ const ourLocationList = [
 ];
 function Footer() {
   return (
-    <section className="bg-bgCream">
+    <section id="contact" className="bg-bgCream">
       <div className="container mx-auto pt-12 pb-6 px-6">
         {/* className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20" */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20">

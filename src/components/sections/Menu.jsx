@@ -123,7 +123,10 @@ function Menu() {
   }
 
   return (
-    <section className="container mx-auto pt-0 px-6 sm:p-6 sm:mt-10 relative z-10 -top-20 sm:-top-5 md:top-0">
+    <section
+      id="menu"
+      className="container mx-auto pt-0 px-6 sm:p-6 sm:mt-10 relative z-10 -top-20 sm:-top-5 md:top-0"
+    >
       <div className="w-11/12 mx-auto sm:pt-10 pb-10 px-12 sm:px-16 md:px-10 lg:px-24 xl:px-36 bg-white rounded-[60px] relative overflow-visible">
         {/* Leaves 1*/}
         <div className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 absolute right-0 top-0 rotate-[230deg] lg:-right-2 lg:top-[45%] lg:-translate-y-[100%] lg:-rotate-45 xl:right-5 xl:top-[50%] xl:-translate-y-[90%]">

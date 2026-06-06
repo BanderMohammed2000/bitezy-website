@@ -2,7 +2,10 @@ import foodData from "../../data/foodData";
 import FoodCard from "../ui/FoodCard";
 function TopFoods() {
   return (
-    <section className="container mx-auto pt-10 xl:pt-14 pb-6 px-6">
+    <section
+      id="top-foods"
+      className="container mx-auto pt-10 xl:pt-14 pb-6 px-6"
+    >
       <h2 className="text-2xl w-fit mx-auto text-blackSoft font-medium capitalize relative horizontal-line">
         top foods
       </h2>

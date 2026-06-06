@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import cart from "../../assets/icons/cart.svg";
+import cart from "../../assets/icons/cart-outline.svg";
 import search from "../../assets/icons/search-line.svg";
 import sign from "../../assets/icons/signin.svg";
 import menu from "../../assets/icons/menu-alt.svg";
@@ -8,7 +8,7 @@ function Navbar() {
   const navStyle = "capitalize font-medium text-blackSoft";
   return (
     <nav className="flex justify-between items-center">
-      <img src={menu} alt="Menu Bar Icon" className="lg:hidden w-7 h-7" />
+      <img src={menu} alt="Menu Bar Icon" className="lg:hidden w-6 h-6" />
       <div className="flex space-x-2 items-center">
         <div className="bg-primary rounded-[50%] p-2">
           <img src={logo} alt="logo" className="w-5 h-5" />
@@ -17,32 +17,32 @@ function Navbar() {
       </div>
       <ul className="hidden lg:flex space-x-5">
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#menu">
             menu
           </a>
         </li>
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#categories">
             categories
           </a>
         </li>
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#top-foods">
             top foods
           </a>
         </li>
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#team">
             team
           </a>
         </li>
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#get-app">
             get app
           </a>
         </li>
         <li>
-          <a className={navStyle} href="">
+          <a className={navStyle} href="#contact">
             contact
           </a>
         </li>

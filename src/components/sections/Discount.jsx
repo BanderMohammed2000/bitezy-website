@@ -4,7 +4,7 @@ import googlePlay from "../../assets/images/google-play.png";
 import appStore from "../../assets/images/app-store.png";
 function Discount() {
   return (
-    <section className="container mx-auto p-6">
+    <section id="get-app" className="container mx-auto p-6">
       <div className="flex flex-col md:flex-row justify-between md:items-center space-y-14">
         <div className="space-y-7 relative">
           <img

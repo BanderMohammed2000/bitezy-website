@@ -2,7 +2,7 @@ import teamData from "../../data/teamData";
 import TeamCard from "../ui/TeamCard";
 function OurTeam() {
   return (
-    <section className="container mx-auto pt-10 lg:pt-14 pb-6 px-6">
+    <section id="team" className="container mx-auto pt-10 lg:pt-14 pb-6 px-6">
       <h2 className="text-2xl w-fit mx-auto text-blackSoft font-medium capitalize relative horizontal-line">
         meet our best team
       </h2>
