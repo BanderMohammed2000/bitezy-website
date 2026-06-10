@@ -18,6 +18,12 @@ body {
   border-radius: 6px;
 }
 
+.svg {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
 /* .get-started::after {
   content: "";
   background-color: #ca3c1f;

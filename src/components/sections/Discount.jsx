@@ -2,6 +2,7 @@ import phone from "../../assets/images/phone.png";
 import dish from "../../assets/images/healthy-varied-dish.png";
 import googlePlay from "../../assets/images/google-play.png";
 import appStore from "../../assets/images/app-store.png";
+import Button from "../ui/Button";
 function Discount() {
   return (
     <section id="get-app" className="container mx-auto p-6">
@@ -16,10 +17,12 @@ function Discount() {
             get 20% discount
           </h2>
           <p className="text-blackSoft font-medium leading-relaxed w-[60%] sm:w-auto sm:max-w-xs md:max-w-sm">
-            Get flat 20% off on your first order though The Bitezy App!
+            {/* Get flat 20% off on your first order though The Bitezy App! */}
+            Get flat 20% off on your first order through The Bitezy App and
+            discover fresh, nutritious meals made for a healthier lifestyle
           </p>
           <div className="flex flex-row space-x-3 pt-4 sm:pt-10">
-            <button type="button">
+            <Button isStyle={false}>
               <a href="#">
                 <img
                   src={googlePlay}
@@ -27,12 +30,12 @@ function Discount() {
                   className="h-10 sm:h-14"
                 />
               </a>
-            </button>
-            <button type="button">
+            </Button>
+            <Button isStyle={false}>
               <a href="#">
                 <img src={appStore} alt="App Store" className="h-10 sm:h-14" />
               </a>
-            </button>
+            </Button>
           </div>
         </div>
         {/* img */}
