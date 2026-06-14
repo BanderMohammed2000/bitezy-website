@@ -1,9 +1,5 @@
 import { useState } from "react";
 import logo from "../../assets/logo.svg";
-// import cart from "../../assets/icons/cart-outline.svg";
-// import search from "../../assets/icons/search-line.svg";
-// import sign from "../../assets/icons/signin.svg";
-// import menu from "../../assets/icons/menu-alt.svg";
 import Button from "../ui/Button";
 function Navbar({ onMenuClick }) {
   const navStyle =
@@ -26,14 +22,12 @@ function Navbar({ onMenuClick }) {
   return (
     <nav className="flex justify-between items-center">
       <button onClick={onMenuClick} className="lg:hidden">
-        {/* <img src={menu} alt="Menu Bar Icon" className="w-6 h-6" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24px"
           height="24px"
           viewBox="0 0 24 24"
         >
-          {/* <title xmlns="">menu-alt-1</title> */}
           <path
             fill="none"
             stroke="#111111"
@@ -88,14 +82,12 @@ function Navbar({ onMenuClick }) {
           onMouseEnter={() => handleMouse("search", true)}
           onMouseLeave={() => handleMouse("search", false)}
         >
-          {/* <img src={search} alt="Search Icon" className="w-5 h-5" /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20px"
             height="20px"
             viewBox="0 0 24 24"
           >
-            {/* <title xmlns="">search-outline</title> */}
             <g>
               <g
                 fill={iconsHovered.search ? "#f85a1c" : "#111111"}
@@ -114,14 +106,12 @@ function Navbar({ onMenuClick }) {
           onMouseEnter={() => handleMouse("cart", true)}
           onMouseLeave={() => handleMouse("cart", false)}
         >
-          {/* <img src={cart} alt="Cart Icon" className="w-5 h-5" /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20px"
             height="20px"
             viewBox="0 0 24 24"
           >
-            {/* <title xmlns="">cart-outline</title> */}
             <path
               fill={iconsHovered.cart ? "#f85a1c" : "#111111"}
               className="transition-all duration-300 ease-out"
@@ -134,14 +124,12 @@ function Navbar({ onMenuClick }) {
           onMouseLeave={() => setSignIconHovered(false)}
           className="hidden lg:flex items-center space-x-2 text-blackSoft font-semibold bg-white hover:bg-primary hover:text-white"
         >
-          {/* <img className="w-6 h-6" src={sign} alt="Sign-in Icon" /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24px"
             height="24px"
             viewBox="0 0 24 24"
           >
-            {/* <title xmlns="">signin</title> */}
             <path
               fill={signIconHovered ? "#ffffff" : "#111111"}
               className="transition-all duration-300 ease-out"
