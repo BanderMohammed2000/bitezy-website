@@ -1,4 +1,3 @@
-// import greenBowl from "../../assets/images/menu/green-bowl.png";
 import heart from "../../assets/icons/heart-bold.svg";
 import Button from "./Button";
 

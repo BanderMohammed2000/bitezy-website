@@ -67,7 +67,7 @@ function Header() {
               stiffness: 260,
               damping: 28,
             }}
-            className="lg:hidden bg-white shadow-[0_20px_60px_rgba(0,0,0,0.12)] absolute left-0 top-0 h-screen w-[80%] z-30"
+            className="lg:hidden bg-white shadow-[0_20px_60px_rgba(0,0,0,0.12)] absolute left-0 top-0 h-full w-[80%] z-30"
           >
             <div className="container mx-auto py-6 px-4">
               <div className="flex justify-between items-center">
