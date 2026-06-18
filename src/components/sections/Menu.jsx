@@ -75,7 +75,7 @@ function Menu() {
           transition={{ duration: 1.2, ease: smoothEase, delay: 1.2 }}
           className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 absolute right-0 top-0 rotate-[230deg] lg:-right-2 lg:top-[45%] lg:-translate-y-[100%] lg:-rotate-45 xl:right-5 xl:top-[50%] xl:-translate-y-[90%]"
         >
-          <img src={leaves} alt="Leaves" />
+          <img src={leaves} alt="Leaves" width="80px" height="80px" />
         </motion.div>
 
         {/* Leaves 2 */}
@@ -86,7 +86,7 @@ function Menu() {
           transition={{ duration: 1.2, ease: smoothEase, delay: 1.35 }}
           className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 absolute bottom-0 left-0 rotate-[50deg] lg:top-[50%] lg:translate-y-[10%] lg:rotate-[130deg] xl:top-[50%]"
         >
-          <img src={leaves} alt="Leaves" />
+          <img src={leaves} alt="Leaves" width="80px" height="80px" />
         </motion.div>
 
         {/* Left bg circle */}
@@ -107,6 +107,7 @@ function Menu() {
                 ? "opacity-30 cursor-not-allowed"
                 : "opacity-100 cursor-pointer hover:scale-105 active:scale-95"
             }`}
+            aria-label="Previous foods"
           >
             <img
               src={arrow}
@@ -168,6 +169,7 @@ function Menu() {
                 ? "opacity-30 cursor-not-allowed"
                 : "opacity-100 cursor-pointer hover:scale-105 active:scale-95"
             }`}
+            aria-label="Next foods"
           >
             <img
               src={arrow}

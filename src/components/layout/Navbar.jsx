@@ -21,7 +21,11 @@ function Navbar({ onMenuClick }) {
 
   return (
     <nav className="flex justify-between items-center">
-      <button onClick={onMenuClick} className="lg:hidden">
+      <button
+        onClick={onMenuClick}
+        className="lg:hidden"
+        aria-label="Open menu"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24px"
@@ -81,6 +85,7 @@ function Navbar({ onMenuClick }) {
           isStyle={false}
           onMouseEnter={() => handleMouse("search", true)}
           onMouseLeave={() => handleMouse("search", false)}
+          aria-label="Search"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -105,6 +110,7 @@ function Navbar({ onMenuClick }) {
           isStyle={false}
           onMouseEnter={() => handleMouse("cart", true)}
           onMouseLeave={() => handleMouse("cart", false)}
+          aria-label="Cart"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -123,6 +129,7 @@ function Navbar({ onMenuClick }) {
           onMouseEnter={() => setSignIconHovered(true)}
           onMouseLeave={() => setSignIconHovered(false)}
           className="hidden lg:flex items-center space-x-2 text-blackSoft font-semibold bg-white hover:bg-primary hover:text-white"
+          aria-label="Sign in"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -14,6 +14,7 @@ function MenuCard({ name, price, image, color }) {
       <Button
         isStyle={false}
         className="flex sm:hidden justify-center items-center bg-white rounded-[50%] w-8 h-8 absolute right-2 top-2"
+        aria-label="Like"
       >
         <img src={heart} alt="Heart Icon" className="w-6 h-6" />
       </Button>
@@ -29,6 +30,7 @@ function MenuCard({ name, price, image, color }) {
           <Button
             isStyle={false}
             className="hidden sm:flex justify-center items-center bg-white rounded-[50%] w-5 h-5"
+            aria-label="Like"
           >
             <img src={heart} alt="Heart Icon" className="w-4 h-4" />
           </Button>

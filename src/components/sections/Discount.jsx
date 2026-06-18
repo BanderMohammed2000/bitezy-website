@@ -72,19 +72,25 @@ function Discount() {
             }}
             className="flex flex-row space-x-3 pt-4 sm:pt-10"
           >
-            <Button isStyle={false}>
+            <Button isStyle={false} aria-label="Google play">
               <a href="#">
                 <img
                   src={googlePlay}
                   alt="Google Play"
                   className="h-10 sm:h-14"
+                  height="56px"
                 />
               </a>
             </Button>
 
-            <Button isStyle={false}>
+            <Button isStyle={false} aria-label="App store">
               <a href="#">
-                <img src={appStore} alt="App Store" className="h-10 sm:h-14" />
+                <img
+                  src={appStore}
+                  alt="App Store"
+                  className="h-10 sm:h-14"
+                  height="56px"
+                />
               </a>
             </Button>
           </motion.div>
@@ -132,6 +138,7 @@ function Discount() {
             src={phone}
             alt="Phone"
             className="h-96"
+            height="384px"
           />
         </div>
       </div>

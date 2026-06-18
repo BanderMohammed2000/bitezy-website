@@ -67,6 +67,7 @@ function Footer() {
                     isStyle={false}
                     onMouseEnter={() => handleMouse("google", true)}
                     onMouseLeave={() => handleMouse("google", false)}
+                    aria-label="Google"
                   >
                     <a href="#">
                       <svg
@@ -93,6 +94,7 @@ function Footer() {
                     isStyle={false}
                     onMouseEnter={() => handleMouse("facebook", true)}
                     onMouseLeave={() => handleMouse("facebook", false)}
+                    aria-label="Facebook"
                   >
                     <a href="#">
                       <svg
@@ -116,6 +118,7 @@ function Footer() {
                     isStyle={false}
                     onMouseEnter={() => handleMouse("instagram", true)}
                     onMouseLeave={() => handleMouse("instagram", false)}
+                    aria-label="Instagram"
                   >
                     <a href="#">
                       <svg

@@ -55,6 +55,7 @@ function Hero() {
             className="hidden sm:block"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            aria-label="Play video"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -116,6 +117,7 @@ function Hero() {
             transition={{ duration: 1.3, ease: smoothEase, delay: 0.75 }}
             className="w-full relative sm:right-7 z-10 drop-shadow-2xl"
             src={healthyBowl}
+            width="100%"
             alt="Healthy Bowl"
           />
 
