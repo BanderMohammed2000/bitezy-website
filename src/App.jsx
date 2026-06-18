@@ -7,6 +7,13 @@ import leaves1 from "./assets/images/leaves-1.png";
 import leaves2 from "./assets/images/leaves-2.png";
 import leaves3 from "./assets/images/leaves-3.png";
 import leaves4 from "./assets/images/leaves-4.png";
+import healthyBowlYellow from "./assets/images/healthy-bowl-yellow.png";
+import healthyBreakfast from "./assets/images/healthy-breakfast.png";
+import grilledSalad from "./assets/images/grilled-salad.png";
+import man from "./assets/images/man-eats-salad-bowl.png";
+import fallenBowl from "./assets/images/fallen-bowl.png";
+import phone from "./assets/images/phone.png";
+import dish from "./assets/images/healthy-varied-dish.png";
 import PreLoader from "./components/ui/PreLoader";
 import Home from "./pages/Home";
 function App() {
@@ -22,6 +29,13 @@ function App() {
       leaves2,
       leaves3,
       leaves4,
+      healthyBowlYellow,
+      healthyBreakfast,
+      grilledSalad,
+      man,
+      fallenBowl,
+      phone,
+      dish,
     ];
 
     const imagePromises = images.map((src) => {
